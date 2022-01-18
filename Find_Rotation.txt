@@ -1,0 +1,15 @@
+using System;
+public class Rotation
+{
+    public static void Main(String[] args)
+    {
+        Console.WriteLine("Enter a String:");
+        string s=Console.ReadLine();
+        Console.WriteLine("Enter a String to Verify:");
+        string f=Console.ReadLine();
+        if((s+s).Contains(f) && s.Length==f.Length)
+        Console.WriteLine("Rotation");
+        else
+        Console.WriteLine("Not Rotational");
+    }
+}
